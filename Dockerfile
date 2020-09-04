@@ -1,7 +1,7 @@
 # FROM ubuntu:latest
 
-MAINTAINER Ben Wilson <ben@merovex.com>
-FROM python:3.7.5-slim
+#MAINTAINER Ben Wilson <ben@merovex.com>
+FROM python:3.8.5-buster
 RUN python -m pip install \
         pyyaml \
         PyGithub
