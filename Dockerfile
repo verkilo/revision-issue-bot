@@ -1,6 +1,6 @@
 # FROM ubuntu:latest
 
-#MAINTAINER Ben Wilson <ben@merovex.com>
+LABEL maintainer="Ben Wilson <ben@merovex.com>"
 FROM python:3.8.5-buster
 RUN python -m pip install \
         pyyaml \
