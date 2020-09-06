@@ -1,6 +1,6 @@
 #!/usr/local/bin/python3
 
-from Revision.Todos import Todos
+from package.Todos import Todos
 
 if __name__ == "__main__":
   todos = Todos()

@@ -1,0 +1,12 @@
+setup.py
+bin/capture-revisions.py
+package/Github.py
+package/Todo.py
+package/TodoData.py
+package/Todos.py
+package/__init__.py
+revision_recorder.egg-info/PKG-INFO
+revision_recorder.egg-info/SOURCES.txt
+revision_recorder.egg-info/dependency_links.txt
+revision_recorder.egg-info/requires.txt
+revision_recorder.egg-info/top_level.txt
