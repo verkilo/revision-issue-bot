@@ -57,7 +57,7 @@ class Github:
       res = self.conn.create_issue(
         title=todo.title,
         body=self.format(todo),
-        labels=[self.label]
+        labels=['todo',self.label]
       )
       print("Adding: #{} '{}'".format(res.number, todo.title))
       todo.number = res.number

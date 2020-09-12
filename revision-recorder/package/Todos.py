@@ -3,6 +3,7 @@ import glob
 import os
 import re
 import yaml
+from pathlib import Path
 from .TodoData import TodoData
 from .Todo import Todo
 
@@ -13,6 +14,7 @@ class Todos:
     self.keys  = []
     self.github = Github()
     os.makedirs('.verkilo/.revision-data', exist_ok = True)
+    Path('.verkilo/.revision-data/.keep', exist_ok = True).touch()
 
   def prune(self):
     keys  = []
